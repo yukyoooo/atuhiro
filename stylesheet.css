@@ -1,0 +1,140 @@
+*{
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+}
+
+p{
+    font-size: 16px;
+}
+body{
+    background: gray;
+}
+
+.top-wrapper{
+    
+
+}
+.top-left{
+    height: 100vh;
+    background-image:url(img/tog-img.jpg);
+    background-size: cover;
+    
+}
+.top-left h1{
+    color:white;
+    margin-top:40%;
+    text-align: center;
+    font-weight: bold;
+}
+.top-right{
+    background-color: rgb(167, 8, 8);
+    height: 100vh;
+    
+}
+.top-right p{
+    color:white;
+    margin-top:40%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 各セクションのタイトル */
+.title-wrapper{
+    margin:10px 0 30px;
+}
+.title-wrapper h2{
+    font-weight: bold;
+    font-size: 20px;
+    color:#393939;
+    margin-top:30px;
+    border-bottom:3px solid #C7243A;
+    width:80px;
+    padding-bottom:15px;
+}
+
+.news-list {
+    margin-top:5px;
+    padding:10px 20px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.news-list:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    transform: translateY(-0.1875em);
+  }
+.news-list p{
+    margin:0;
+}
+.news-list h3{
+    font-size: 20px;
+}
+
+
+
+.aboutUs-wrapper{
+    background-image:url(img/tog-img.jpg);
+    background-size: cover;
+    height: 90vh;
+    margin-top:20vh;
+    padding:50px;
+    position: relative;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 100% calc(0% + 5vw), 100% calc(100% - 5vw), 0 100%);
+            clip-path: polygon(0 0, 100% calc(0% + 5vw), 100% calc(100% - 5vw), 0 100%);
+  }
+.aboutUs-wrapper h2{
+    padding-top:20vh;
+    color:white;
+}
+.aboutUs-wrapper p{
+    color:white;
+    margin-top:50px;
+}
+
+/* サービス/事業一覧 */
+.service-wrapper{
+    text-align: center;
+}
+.service-wrapper h3{
+    margin-bottom: 30px;
+}
+
+/* 会社のビジョン */
+.vision-wrapper{
+    background-image:url(img/tog-img.jpg);
+    background-size: cover;
+    height: 80vh;
+    margin-top:20vh;
+    padding:50px;
+    position: relative;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw));                   */
+  }
+.vision-text{
+    float:right;
+}
+.vision-text h2{
+    padding-top:10vh;
+    color:white;
+}
+.vision-text p{
+    color:white;
+    margin-top:50px;
+}
+
+/* 会社情報 */
+.aboutCompany-wrapper{
+    text-align: center;
+}
+.aboutCompany-wrapper button{
+    font-weight: bold;
+    padding: 15px 100px;
+    float:right;
+    margin-bottom: 30px;
+}
+
+footer{
+    height: 300px;
+    background-color:#555555;
+}
